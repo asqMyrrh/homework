@@ -2,24 +2,13 @@ import string
 
 s = string.ascii_lowercase
 
-
-
-
 l = [c for c in s]
-
-
-
 
 def f(l):
 
     for d in l:
 
         print(d)
-
-
-
-
-
 
 
 def f2(l):
@@ -31,12 +20,6 @@ def f2(l):
         print(l[i])
 
         i+=1
-
-
-
-
-
-
 
 def dec(leng):
 
@@ -57,11 +40,6 @@ def dec(leng):
     return new_leng
 
 
-
-
 f2_dec = dec(f2)
-
-
-
 
 f2_dec(l)
